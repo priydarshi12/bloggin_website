@@ -1,0 +1,555 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Geeky Blogs</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+        integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <style type="text/css">
+    </style>
+</head>
+
+<body>
+    <header class="main_header">
+        <div class="d-flex justify-content-center align-items-center flex-column py-5">
+            <h1 class="text-uppercase main_heading">GEEKY BLOGS</h1>
+            <p class="main_heading__para">Welcome to <span class="text-capitalize bg-dark text-white py-2 px-3"> world
+                    of blog</span> </p>
+        </div>
+        <!-- //the main image -->
+        <div class="main_header__div d-flex align-items-start
+        justify-content-center  flex-column shadow pl-5">
+            <p>GEEKY BLOGS</p>
+            <!-- <h2 class="text-uppercase">the Progammer guy</h2> -->
+            <h2 class="animateWord">
+                <span>Looking for</span>
+                <div>
+                    <!--        Use classes 2,3, or 4 to match the number of words -->
+                    <ul class="flip4">
+                        <li> Technology</li>
+                        <li> Science</li>
+                        <li> Freelancer</li>
+                        <li> Coding</li>
+                    </ul>
+                </div>
+            </h2>
+            <button class="text-uppercase">subscribe</button>
+        </div>
+    </header>
+    <!-- header ends -->
+    <!-- two sided blog part starts -->
+    <div class="container-fluid ">
+        <div class="row ">
+            <!-- to get the space form left and right -->
+            <div class="col-xl-10  col-lg-10 col-md-12 col-11 mx-auto my-5">
+                <div class="row gx-5 mx-sm-auto">
+                    <!-- left side of the blog  -->
+                    <div class="col-lg-8 col-md-11 col-11 mx-auto">
+                        <div class="row gy-5 ">
+                            <div class="col-12 card p-4 shadow blog_left__div">
+                                <div class="d-flex justify-content-center align-items-center flex-column pt-3 pb-5 ">
+                                    <h1 class="text-uppercase">Best Laptop in 2022</h1>
+                                    <p class="blog_title"> <span class="font-weight-bold"> Published Date:</span> Dec
+                                        22, 2022 </p>
+                                </div>
+                                <figure class="right_side_img mb-5">
+                                    <img src="https://cdn.pixabay.com/photo/2016/11/19/12/34/apple-1839046_960_720.jpg "
+                                        class="img-fluid shadow">
+                                </figure>
+                                <p><span class="font-weight-bold">The Apple MacBook Air M2</span> currently
+                                    tops our list of the best laptops 2022 has to offer, because it is a solid choice
+                                    for most people. It offers a great combination of everything we look for when we're
+                                    testing: reliable everyday performance, long battery life and a design that works
+                                    for a broad range of users. The latest MacBook Air starts at $1,199, which is why we
+                                    still recommend the 2022 MacBook Air M1 as a lower-cost alternative to the newest
+                                    Air model, as it's still an all-around excellent laptop. For those looking for a
+                                    more value-oriented option, HP's Pavilion Aero 13 is an excellent small and light
+                                    laptop starting at $550, but even fully loaded it's a reasonable $900.</p>
+                                <p>
+
+                                </p>
+                                <div class="d-flex justify-content-between left_div_btns">
+                                    <div>
+                                        <button class="left_div__like" id="like_btn"><i
+                                                class="fa fa-thumbs-up"></i>Like</button>
+                                    </div>
+                                    <div>
+                                        <button class="left_div__reply" onclick="reply('reply1')">Replies <badge
+                                                class="bg-white text-dark p-2">1</badge></button>
+                                    </div>
+                                </div>
+                                <div class="replies" id="reply1">
+                                    <div
+                                        class="d-flex justify-content-start flex-row align-items-center card reply_card py-3 ">
+                                        <div class=" reply_img mx-2 align-self-center ">
+                                            <img
+                                                src="https://img.icons8.com/doodle/48/000000/user-male-skin-type-5.png" />
+                                        </div>
+                                        <div class="reply_text__left">
+                                            <p class="blog_title "> <span class="font-weight-bold"> Priydarshi </span>
+                                                Dec
+                                                22, 2022, 7:20 PM </p>
+                                            <p>Awesome, Bro I love your content.</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 2nd topic  -->
+                            <div class="col-12 card p-4 shadow blog_left__div">
+                                <div class="d-flex justify-content-center align-items-center flex-column pt-3 pb-5 ">
+                                    <h1 class="text-uppercase">A BRIEF HISTORY OF BLOGGING</h1>
+                                    <p class="blog_title"> <span class="font-weight-bold"> Published Date:</span> Dec
+                                        23, 2022 </p>
+                                </div>
+                                <figure class="right_side_img mb-5">
+                                    <img src=https://cdn.pixabay.com/photo/2015/09/04/23/28/wordpress-923188_960_720.jpg
+                                        class="img-fluid shadow">
+                                </figure>
+                                <p><span class="font-weight-bold">The earliest recorded</span> website created to be
+                                    similar to a modern-day blog is thought to be links.net, which was started in 1994
+                                    by Justin Hall. The website contained short posts with shared links that gave
+                                    visitors access to his writing work and other websites. This led the New York Times
+                                    Magazine to label Hall as the “founding father of personal bloggers.”
+
+                                    In 1998, online blogs were created to quickly connect with their favorite news
+                                    outlets to allow readers to connect with their favorite news outlets. In 2001, Opera
+                                    Software reported that close to 600 news sites allowed their visitors to leave
+                                    comments and interact with other readers in this new way of sharing. After 10 years
+                                    of constant growth, modern blogging was born</p>
+                                <p>
+                                    Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing
+                                    elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                                    minim veniam, quis nostrud exercitation ullamco.
+                                </p>
+                                <div class="d-flex justify-content-between left_div_btns">
+                                    <div>
+                                        <button class="left_div__like" id="like_btn"><i
+                                                class="fa fa-thumbs-up"></i>Like</button>
+                                    </div>
+                                    <div>
+                                        <button class="left_div__reply" onclick="reply('reply2')">Replies <badge
+                                                class="bg-white text-dark p-2">2</badge></button>
+                                    </div>
+                                </div>
+                                <div class="replies" id="reply2">
+                                    <div
+                                        class="d-flex justify-content-start flex-row align-items-center card reply_card py-3 ">
+                                        <div class=" reply_img mx-2 align-self-center ">
+                                            <img
+                                                src="https://img.icons8.com/doodle/48/000000/user-male-skin-type-5.png" />
+                                        </div>
+                                        <div class="reply_text__left">
+                                            <p class="blog_title "> <span class="font-weight-bold"> Vinod, </span> Dec
+                                                24, 2022, 7:20 PM </p>
+                                            <p>I really like the way you teach. Subscribed :)</p>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="d-flex justify-content-start flex-row align-items-center card reply_card py-3 ">
+                                        <div class=" reply_img mx-2 align-self-center ">
+                                            <img
+                                                src="https://img.icons8.com/doodle/48/000000/user-male-skin-type-5.png" />
+                                        </div>
+                                        <div class="reply_text__left">
+                                            <p class="blog_title "> <span class="font-weight-bold"> Thapa, </span> Dec
+                                                25, 2022, 7:20 PM </p>
+                                            <p>Awesome, Bro I love your content.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 3rd topic -->
+                            <div class="col-12 card p-4 shadow blog_left__div">
+                                <div class="d-flex justify-content-center align-items-center flex-column pt-3 pb-5 ">
+                                    <h1 class="text-uppercase">Billionaires Are A Security Threat</h1>
+                                    <p class="blog_title"> <span class="font-weight-bold"> Published Date:</span> Dec
+                                        23, 2022 </p>
+                                </div>
+                                <figure class="right_side_img mb-5">
+                                    <img src="https://images.pexels.com/photos/4050303/pexels-photo-4050303.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+                                        class="img-fluid shadow">
+                                </figure>
+                                <p><span class="font-weight-bold">ELON MUSK’S ACQUISITION</span> of Twitter is
+                                    particularly hard to swallow because every report of internal chaos reminds us that
+                                    we may have sacrificed the most promising mode of online communication invented in
+                                    decades by failing to identify it for what it was back when we had the chance.
+                                    Musk’s purchase should never have been possible in the first place because Twitter
+                                    should never have been an asset. It is “the public conversation layer of the
+                                    internet,” as founder Jack Dorsey once put it, and consequently has functioned as
+                                    the de facto center of our global alert system through the pandemic. It is
+                                    astonishing that it is even still possible for one person to own this. It’s like
+                                    owning email.
+
+                                    In the field of information security, there’s a kind of vulnerability known as the
+                                    evil maid attack whereby an untrusted party gains physical access to important
+                                    hardware, such as the housekeeping staff coming into your hotel room when you’ve
+                                    left your laptop unattended, thereby compromising it. We have here a new analog,
+                                    just as capable of wrecking systems and leaking data. Call it the “evil billionaire
+                                    attack” if you’d like. The weapon is money, and more specifically, the likelihood
+                                    that when the moment arrives you won’t have enough of it to make a difference. The
+                                    call is coming from inside the house.
+                                </p>
+                                <div class="d-flex justify-content-between left_div_btns">
+                                    <div>
+                                        <button class="left_div__like" id="like_btn"><i
+                                                class="fa fa-thumbs-up"></i>Like</button>
+                                    </div>
+                                    <div>
+                                        <button class="left_div__reply" onclick="reply('reply3')">Replies <badge
+                                                class="bg-white text-dark p-2">4</badge></button>
+                                    </div>
+                                </div>
+                                <div class="replies" id="reply3">
+                                    <div
+                                        class="d-flex justify-content-start flex-row align-items-center card reply_card py-3 ">
+                                        <div class=" reply_img mx-2 align-self-center ">
+                                            <img
+                                                src="https://img.icons8.com/doodle/48/000000/user-male-skin-type-5.png" />
+                                        </div>
+                                        <div class="reply_text__left">
+                                            <p class="blog_title "> <span class="font-weight-bold"> Thapa, </span> Dec
+                                                27, 2022, 7:20 PM </p>
+                                            <p>Awesome, Bro I love your content.</p>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="d-flex justify-content-start flex-row align-items-center card reply_card py-3 ">
+                                        <div class=" reply_img mx-2 align-self-center ">
+                                            <img
+                                                src="https://img.icons8.com/doodle/48/000000/user-male-skin-type-5.png" />
+                                        </div>
+                                        <div class="reply_text__left">
+                                            <p class="blog_title "> <span class="font-weight-bold"> Thapatechnical,
+                                                </span> Dec 24, 2022, 7:20 PM </p>
+                                            <p>Awesome, Bro I love your content.</p>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="d-flex justify-content-start flex-row align-items-center card reply_card py-3 ">
+                                        <div class=" reply_img mx-2 align-self-center ">
+                                            <img
+                                                src="https://img.icons8.com/doodle/48/000000/user-male-skin-type-5.png" />
+                                        </div>
+                                        <div class="reply_text__left">
+                                            <p class="blog_title "> <span class="font-weight-bold"> vinod, </span> Dec
+                                                28, 2022, 7:20 PM </p>
+                                            <p>Awesome, Bro I love your content.</p>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="d-flex justify-content-start flex-row align-items-center card reply_card py-3 ">
+                                        <div class=" reply_img mx-2 align-self-center ">
+                                            <img
+                                                src="https://img.icons8.com/doodle/48/000000/user-male-skin-type-5.png" />
+                                        </div>
+                                        <div class="reply_text__left">
+                                            <p class="blog_title "> <span class="font-weight-bold"> Thapa, </span> Dec
+                                                28, 2022, 7:20 PM </p>
+                                            <p>Awesome, Bro I love your content.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--  *******************************************************
+            **********************************************************.
+            right side of the div
+            *******************************************************
+            **********************************************************
+            -->
+                    <div class="col-lg-3 col-md-7 col-11  justify-content-end m-lg-0 m-auto ">
+                        <div class="row gy-5 left_div__blog">
+                            <!-- about me -->
+                            <div class="col-12  about_me_div shadow">
+                                <p>Geeky Blogs</p>
+                                <p>Geeky Blogs focuses on how emerging technologies affect culture, the economy, and
+                                    politics.The website provides an in-depth coverage of current and future trends in
+                                    technology.</p>
+                            </div>
+                            <!-- popular post -->
+                            <div class=" popular_post ">
+                                <div class="right_div__title py-4 pl-2 ">
+                                    <h2>Popular Posts</h2>
+                                </div>
+                                <div class="right_sub__div shadow">
+                                    <div class="row ">
+                                        <div class="col-3  popular_post__img1 py-2 pl-2">
+                                        </div>
+                                        <div class="col-9">
+                                            <h3>Bill Gates</h3>
+                                            <p class="text-capitalize">CEO Microsoft</p>
+                                        </div>
+                                    </div>
+                                    <div class="row ">
+                                        <div class="col-3  popular_post__img2 py-2 pl-2">
+                                        </div>
+                                        <div class="col-9">
+                                            <h3>Mark Zuckerberg </h3>
+                                            <p class="text-capitalize">Programmer</p>
+                                        </div>
+                                    </div>
+                                    <div class="row ">
+                                        <div class="col-3  popular_post__img3 py-2 pl-2">
+                                        </div>
+                                        <div class="col-9">
+                                            <h3>Jeff Bezos</h3>
+                                            <p class="text-capitalize">Amazon</p>
+                                        </div>
+                                    </div>
+                                    <div class="row ">
+                                        <div class="col-3  popular_post__img4 py-2 pl-2">
+                                        </div>
+                                        <div class="col-9">
+                                            <h3>Steve Jobs</h3>
+                                            <p class="text-capitalize">Apple</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- advertise -->
+                            <div class=" right_div_post">
+                                <div class="right_div__title py-4 pl-2 ">
+                                    <h2>Advertise</h2>
+                                </div>
+                                <div class="right_sub__div ">
+                                    <div class="adevetise_img bg-light shadow">
+                                        <p>Ads goes here</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- tags -->
+                            <div class=" right_div_post">
+                                <div class="right_div__title py-4 pl-2 ">
+                                    <h2>Tags</h2>
+                                </div>
+                                <div class="tags_main right_sub__div">
+                                    <a href="https://www.w3schools.com/html/default.asp#:~:text=HTML%20Tutorial-,%E2%9D%AE%20Home,Next%20%E2%9D%AF,-HTML%20is%20the"
+                                        class="badge shadow text-capitalize"> html </a>
+                                    <a href="https://www.w3schools.com/css/default.asp"
+                                        class="badge shadow text-capitalize"> css </a>
+                                    <a href="https://www.w3schools.com/js/default.asp"
+                                        class="badge shadow text-capitalize"> js </a>
+                                    <a href="https://www.w3schools.com/react/default.asp"
+                                        class="badge shadow text-capitalize"> react </a>
+
+                                    <a href="https://www.w3schools.com/cpp/default.asp"
+                                        class="badge shadow text-capitalize"> c++ </a>
+
+                                </div>
+                            </div>
+                            <!-- Inspiration -->
+                            <div class=" right_div_post">
+                                <div class="right_div__title py-4 pl-2 ">
+                                    <h2>Inspiration</h2>
+                                </div>
+                                <div class="right_sub__div">
+                                    <div class="row gx-3">
+                                        <div class="col-6">
+                                            <figure>
+                                                <img src="https://images.pexels.com/photos/196659/pexels-photo-196659.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+                                                    class="img-fluid shadow">
+                                            </figure>
+                                        </div>
+                                        <div class="col-6">
+                                            <figure>
+                                                <img src="https://images.pexels.com/photos/34140/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+                                                    class="img-fluid shadow">
+                                            </figure>
+                                        </div>
+                                        <div class="col-6">
+                                            <figure>
+                                                <img src="https://images.pexels.com/photos/38547/office-freelancer-computer-business-38547.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+                                                    class="img-fluid shadow">
+                                            </figure>
+                                        </div>
+                                        <div class="col-6">
+                                            <figure>
+                                                <img src="https://images.pexels.com/photos/196659/pexels-photo-196659.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+                                                    class="img-fluid shadow">
+                                            </figure>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Follow Me -->
+                            <div class=" right_div_post">
+                                <div class="right_div__title py-4 pl-2 ">
+                                    <h2>Follow Us</h2>
+                                </div>
+                                <div class="right_sub__div d-flex justify-content-around">
+                                    <a href="#"> <i class="fab fa-facebook-square fa-3x"></i></a>
+                                    <a href="#" target="_thapa"> <i
+                                            class="fab fa-3x fa-instagram"></i></a>
+                                    <a href="#"> <i class="fab fa-3x fa-github-square"></i> </a>
+                                    <a href="#"> <i class="fab fa-3x fa-twitter-square"></i></a>
+                                    <a href="#"> <i class="fab fa-3x fa-youtube-square"></i> </a>
+                                    <a href="#"> <i class="fab fa-3x fa-linkedin"></i></a>
+                                </div>
+                            </div>
+                            <!-- Subscribe -->
+                            <div class=" right_div_post">
+                                <div class="right_div__title py-4 pl-2 ">
+                                    <h2>Subscribe</h2>
+                                </div>
+                                <div class="right_sub__div">
+                                    <form action="mailto:kumarpriydarshi6@gmail.com" method="post" enctype="text/plain">
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlInput1" class="form-label">Enter your e-mail
+                                                below and get notified on the latest blog posts.</label>
+                                            <input type="email" class="form-control mt-2" id="exampleFormControlInput1"
+                                                placeholder="name@example.com">
+                                        </div>
+                                        <div class="col-12">
+
+                                            <input type="submit" class="subs_btn d-block" value="subscribe">
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container py-3">
+        <header>
+
+
+            <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+                <h1 class="display-4 fw-normal">Pricing</h1>
+
+        </header>
+
+        <main>
+            <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+                <div class="col">
+                    <div class="card mb-4 rounded-3 shadow-sm">
+                        <div class="card-header py-3">
+                            <h4 class="my-0 fw-normal">Free</h4>
+                        </div>
+                        <div class="card-body">
+                            <h1 class="card-title pricing-card-title">$0<small class="text-muted fw-light">/mo</small>
+                            </h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>10 users included</li>
+                                <li>2 GB of storage</li>
+                                <li>Email support</li>
+                                <li>Help center access</li>
+                            </ul>
+                            <button type="button" class="w-100 btn btn-lg btn-outline-primary">Sign up for free</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mb-4 rounded-3 shadow-sm">
+                        <div class="card-header py-3">
+                            <h4 class="my-0 fw-normal">Pro</h4>
+                        </div>
+                        <div class="card-body">
+                            <h1 class="card-title pricing-card-title">$15<small class="text-muted fw-light">/mo</small>
+                            </h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>20 users included</li>
+                                <li>10 GB of storage</li>
+                                <li>Priority email support</li>
+                                <li>Help center access</li>
+                            </ul>
+                            <button type="button" class="w-100 btn btn-lg btn-primary">Get started</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mb-4 rounded-3 shadow-sm border-primary">
+                        <div class="card-header py-3 text-bg-primary border-primary">
+                            <h4 class="my-0 fw-normal">Enterprise</h4>
+                        </div>
+                        <div class="card-body">
+                            <h1 class="card-title pricing-card-title">$29<small class="text-muted fw-light">/mo</small>
+                            </h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>30 users included</li>
+                                <li>15 GB of storage</li>
+                                <li>Phone and email support</li>
+                                <li>Help center access</li>
+                            </ul>
+                            <button type="button" class="w-100 btn btn-lg btn-primary">Contact us</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </main>
+
+
+    </div>
+    <footer>
+        <p class="text-center py-5 bg-light">design with love By ©Geeky Blogs</p>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- Popper.js first, then Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+        integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous">
+    </script>
+    <script type="text/javascript">
+        const like = document.getElementById('like_btn');
+        const singleClick = () => {
+            like.style.fontWeight = 'bold';
+            like.style.background = '#bbe1fa';
+            like.style.color = '#1b262c';
+            like.innerHTML = "✓ Liked";
+        }
+        const doubleClick = () => {
+            like.style.fontWeight = 'normal';
+            like.style.background = '#3282b8';
+            like.style.color = '#fff';
+            like.innerHTML = "Like";
+        }
+        var clickCount = 0;
+        like.addEventListener('click', function () {
+            clickCount++;
+            if (clickCount === 1) {
+                singleClickTimer = setTimeout(function () {
+                    clickCount = 0;
+                    singleClick();
+                }, 400);
+            } else if (clickCount === 2) {
+                clearTimeout(singleClickTimer);
+                clickCount = 0;
+                doubleClick();
+            }
+        }, false);
+        // show and hide the replies
+        const reply = (rep) => {
+            console.log('hi');
+            // debugger;
+            var res = document.getElementById(rep);
+            console.log(res);
+            if (res.className == "replies") {
+                res.className = "thapa_show";
+                res.style.WebkitTransition = 'all 0.3s ease';
+                // res.style.transition = 'all 0.3s ease';
+                // console.log(thapa_show);
+            } else if (res.className == 'thapa_show') {
+                // res.className = " ";
+                console.log('thapa show');
+                res.className = "replies";
+            }
+        }
+    </script>
+</body>
+
+</html>
